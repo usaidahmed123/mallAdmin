@@ -1,4 +1,4 @@
-package com.caseStudy.mallAdmin;
+package com.caseStudy.Entities;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;

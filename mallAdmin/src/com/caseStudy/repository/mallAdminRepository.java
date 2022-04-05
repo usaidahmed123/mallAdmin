@@ -1,6 +1,6 @@
 package com.caseStudy.repository;
 
-import com.caseStudy.mallAdmin.MallAdmin;
+import com.caseStudy.Entities.MallAdmin;
 
 public interface mallAdminRepository {
 

@@ -2,7 +2,7 @@ package com.caseStudy.repository;
 
 import javax.persistence.EntityManager;
 
-import com.caseStudy.mallAdmin.MallAdmin;
+import com.caseStudy.Entities.MallAdmin;
 
 public class mallAdminRepositoryImpl implements mallAdminRepository {
 	
