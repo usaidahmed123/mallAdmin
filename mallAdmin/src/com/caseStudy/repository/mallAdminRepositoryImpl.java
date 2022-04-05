@@ -26,6 +26,7 @@ public class mallAdminRepositoryImpl implements mallAdminRepository {
 		
 		return mallAdmin;
 	}
+	
 
 	@Override
 	public MallAdmin updateMallAdmin(MallAdmin mallAdmin) {
