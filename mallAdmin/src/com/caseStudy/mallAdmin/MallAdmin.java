@@ -6,7 +6,7 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name= "mallAdmin")
-public class mallAdmin {
+public class MallAdmin {
 	
 	@Id
 	private int id;
@@ -15,7 +15,7 @@ public class mallAdmin {
 	
 	private String password;
 	
-	private Mall mall;
+	private int mall;
 	
 	private String phone;
 
@@ -43,11 +43,11 @@ public class mallAdmin {
 		this.password = password;
 	}
 
-	public Mall getMall() {
+	public int getMall() {
 		return mall;
 	}
 
-	public void setMall(Mall mall) {
+	public void setMall(int mall) {
 		this.mall = mall;
 	}
 
